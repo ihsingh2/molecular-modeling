@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/r2/transition_state.chk
+
+Title Card Required
+File Name = transition_state
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = -1
+Spin = Singlet
+Total Energy = -2695.89152909 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 12.0879 Debye
+Point Group = 

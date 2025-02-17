@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q3/chair_cyclohexane.chk
+
+Title Card Required
+File Name = chair_cyclohexane
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+Total Energy = -231.48267163 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 0.0000 Debye
+Point Group = 

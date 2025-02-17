@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/r5/fluoride_ion.chk
+
+Title Card Required
+File Name = fluoride_ion
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = -1
+Spin = Singlet
+Total Energy = -97.61331475 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 0.0000 Debye
+Point Group = 

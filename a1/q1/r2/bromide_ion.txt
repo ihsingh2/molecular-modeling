@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/bromide_ion.chk
+
+Title Card Required
+File Name = bromide_ion
+File Type = .chk
+Calculation Type = SP
+Calculation Method = UHF
+Basis Set = STO-3G
+Charge = -1
+Spin = Singlet
+Total Energy = -2544.53229064 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 0.0000 Debye
+Point Group = 

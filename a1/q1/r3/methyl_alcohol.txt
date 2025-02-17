@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/r3/methyl_alcohol.chk
+
+Title Card Required
+File Name = methyl_alcohol
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+Total Energy = -113.54919323 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 1.5093 Debye
+Point Group = 

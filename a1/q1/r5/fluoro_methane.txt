@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/r5/fluoro_methane.chk
+
+Title Card Required
+File Name = fluoro_methane
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+Total Energy = -137.16905607 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 1.1552 Debye
+Point Group = 

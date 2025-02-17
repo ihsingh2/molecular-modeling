@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q1/r2/hydroxide_ion.chk
+
+Title Card Required
+File Name = hydroxide_ion
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = -1
+Spin = Singlet
+Total Energy = -74.06501719 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 0.1293 Debye
+Point Group = 
