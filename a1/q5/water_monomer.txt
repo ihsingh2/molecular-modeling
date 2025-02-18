@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q5/water_monomer.chk
+
+Title Card Required
+File Name = water_monomer
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+Total Energy = -74.96590117 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 1.7094 Debye
+Point Group = 

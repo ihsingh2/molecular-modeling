@@ -1,0 +1,15 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q5/hydrogen_sulphide_monomer.chk
+
+Title Card Required
+File Name = hydrogen_sulphide_monomer
+File Type = .chk
+Calculation Type = SP
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+Total Energy = -394.31163006 a.u.
+RMS Gradient Norm = 0.00000000 a.u.
+Imaginary Freq = 
+Dipole Moment = 1.0267 Debye
+Point Group = 

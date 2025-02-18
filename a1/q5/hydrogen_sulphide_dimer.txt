@@ -1,0 +1,16 @@
+Filename = /home/himanshu/git/molecular-modeling/a1/q5/hydrogen_sulphide_dimer.log
+
+Title Card Required
+File Name = hydrogen_sulphide_dimer
+File Type = .log
+Calculation Type = FOPT
+Calculation Method = RHF
+Basis Set = STO-3G
+Charge = 0
+Spin = Singlet
+E(RHF) = -788.62430206 a.u.
+RMS Gradient Norm = 0.00000613 a.u.
+Imaginary Freq = 
+Dipole Moment = 1.3178 Debye
+Point Group = C1
+Job cpu time:       0 days  0 hours  0 minutes 16.8 seconds.
