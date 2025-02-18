@@ -241,4 +241,4 @@ Energy change in Water due to H-bonding = -0.00944116 a.u. = -5.9244223116 kcal/
 
 Energy change in Hydrogen Sulphide due to H-bonding = -0.00104194 a.u. = 0.6538277694 kcal/mol
 
-We notice that the change in energy (or binding energy) is 9 times more in case of Water than in case of Hydrogen Sulphide. This can be attributed to hydrogen bonding, which is evident in the optimized structure of the dimers. We can thus argue experimentally that the hydrogen bond between two water molecules is stronger than that of two hydrogen sulphide molecules.
+We notice that the change in energy is 9 times more in case of Water than in case of Hydrogen Sulphide. This can be attributed to hydrogen bonding, which is evident in the optimized structure of the dimers. We can thus argue experimentally that the hydrogen bond between two water molecules is stronger than that of two hydrogen sulphide molecules.
