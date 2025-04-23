@@ -1,18 +1,10 @@
-# Assignment 1
+# Question 1
 
-Name: Himanshu Singh
-
-Roll Number: 2023121013
-
----
+**Take five organic reactions of your choice, calculate the reaction energies (in kcal/mol), and include the reactions with structures.**
 
 **Note:** 1 a.u. = 1 Hartree = 2625 kJ/mol = 627.51 kcal/mol = 27.21 eV ([source](https://kinetics.engin.umich.edu/web_mod/quantum/glossarypages/au.htm)).
 
-## Question 1
-
-Take five organic reactions of your choice, calculate the reaction energies (in kcal/mol), and include the reactions with structures.
-
-### Reaction 1
+## Reaction 1
 
 $$CH_3Br + Cl^- \rightarrow CH_3Cl + Br^-$$
 
@@ -42,7 +34,7 @@ Reaction Energy = 0.03870882 a.u. = 24.2901716382 kcal/mol
 
 Activation Energy = -0.01043221 a.u. = -6.5463160971 kcal/mol
 
-### Reaction 2
+## Reaction 2
 
 $$C_2H_5Br + OH^- \rightarrow C_2H_5OH + Br^-$$
 
@@ -72,7 +64,7 @@ Reaction Energy = -0.20520773 a.u. = -128.7699026523 kcal/mol
 
 Activation Energy = 0.56822863 a.u. = 356.5691476113 kcal/mol
 
-### Reaction 3
+## Reaction 3
 
 $$CH_3I + OH^- \rightarrow CH_3OH + I^-$$
 
@@ -102,7 +94,7 @@ Reaction Energy = -0.24950446 a.u. = 156.5665436946 kcal/mol
 
 Activation Energy = 0.19591668 a.u. = 122.9396758668 kcal/mol
 
-### Reaction 4
+## Reaction 4
 
 $$CH_3Br + I^- \rightarrow CH_3I + Br^-$$
 
@@ -132,7 +124,7 @@ Reaction Energy = 0.04673206 a.u. = 29.3248349706 kcal/mol
 
 Activation Energy = 0.0354113 a.u. = 22.220944863 kcal/mol
 
-### Reaction 5
+## Reaction 5
 
 $$CH_3I + F^- \rightarrow CH_3F + I^-$$
 
@@ -164,9 +156,9 @@ Activation Energy = -0.03765651 a.u. = -23.6298365901 kcal/mol
 
 **Note:** The transition states for reactions 2, 3 and 5 could not be optimized due to errors in Gaussian.
 
-## Question 2
+# Question 2
 
-Perform conformational analysis of butane and plot the energy (in kcal/mol) as a function of the rotation angle.
+**Perform conformational analysis of butane and plot the energy (in kcal/mol) as a function of the rotation angle.**
 
 <img src="q2/butane.png" height="125"/>
 
@@ -174,9 +166,9 @@ Perform conformational analysis of butane and plot the energy (in kcal/mol) as a
 
 We can observe the most stable conformation is the antiperiplanar at 180 degrees and the least stable conformation is the synperiplanar at 0 or 360 degrees. The gauche confirmations at 60 and 300 degrees are the second most stable, while the eclipsed at 120 and 240 degrees are the second least stable.
 
-## Question 3
+# Question 3
 
-Calculate the energy difference between the chair and boat forms of cyclohexane.
+**Calculate the energy difference between the chair and boat forms of cyclohexane.**
 
 <img src="q3/chair_cyclohexane.png" height="125"/>
 <img src="q3/boat_cyclohexane.png" height="125"/>
@@ -191,27 +183,27 @@ Energy Difference = 0.00969738 a.u. = 6.0852029238 kcal/mol = 25.46kJ/mol
 
 The boat form is thus less stable than the chair form. The energy difference calculated to be 25.46kJ/mol is close to the theoretical value of 23kJ/mol ([source](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(Morsch_et_al.)/04%3A_Organic_Compounds_-_Cycloalkanes_and_their_Stereochemistry/4.05%3A_Conformations_of_Cyclohexane#:~:text=not%20completely%20staggered.-,Though%20more%20stable,.,-A%20twist-boat)).
 
-## Question 4
+# Question 4
 
-Calculate the vibrational spectrum of Acetaldehyde, obtain the experimental spectrum and compare the two.
+**Calculate the vibrational spectrum of Acetaldehyde, obtain the experimental spectrum and compare the two.**
 
 <img src="q4/acetaldehyde.png" height="125"/>
 
-### Vibrational Spectrum
+## Vibrational Spectrum
 
 ![q4/1.png](q4/1.png)
 
 ![q4/2.png](q4/2.png)
 
-### Experimental Spectrum
+## Experimental Spectrum
 
 ![q4/3.png](q4/3.png)
 
 ![q4/4.png](q4/4.png)
 
-Images from top to bottom: Experimental IR Spectrum, Raman Activity Spectrum (Source: https://cdnsciencepub.com/doi/pdf/10.1139/v56-141).
+Images from top to bottom: Experimental IR Spectrum, Raman Activity Spectrum ([source](https://cdnsciencepub.com/doi/pdf/10.1139/v56-141)).
 
-### Comparision
+## Comparision
 
 We notice several common peaks in the vibrational and experimental spectra, e.g. around $2200cm^{-1}$ and $3500cm^{-1}$ for the IR spectrum, around $500cm^{-1}, 900cm^{-1}, 1100cm^{-1}, 1700cm^{-1}$ for the Raman spectrum.
 
@@ -219,9 +211,9 @@ However, there are several patterns observed only in one of the two spectra. For
 
 These can be attributed to a wide spectrum of issues, such as approximations employed at different stages of the computation, numerical issues, limitations of physical apparatus, etc.
 
-## Question 5
+# Question 5
 
-Hydrogen bond between two water molecules are stronger than that between two hydrogen sulfide molecules. Prove.
+**Hydrogen bond between two water molecules are stronger than that between two hydrogen sulfide molecules. Prove.**
 
 <img src="q5/water_monomer.png" height="125"/>
 <img src="q5/water_dimer.png" height="125"/>
