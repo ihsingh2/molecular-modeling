@@ -8,11 +8,15 @@
 
 $$CH_3Br + Cl^- \rightarrow CH_3Cl + Br^-$$
 
-<img src="q1/r1/bromo_methane.png" height="125"/>
-<img src="q1/r1/chloride_ion.png" height="125"/>
-<img src="q1/r1/transition_state.png" height="125"/>
-<img src="q1/r1/chloro_methane.png" height="125"/>
-<img src="q1/r1/bromide_ion.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q1/r1/bromo_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r1/chloride_ion.png" height="125"/></td>
+        <td align="center"><img src="q1/r1/transition_state.png" height="125"/></td>
+        <td align="center"><img src="q1/r1/chloro_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r1/bromide_ion.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Bromo Methane, Chloride Ion, Transition State, Chloro Methane, Bromide Ion.
 
@@ -38,11 +42,15 @@ Activation Energy = -0.01043221 a.u. = -6.5463160971 kcal/mol
 
 $$C_2H_5Br + OH^- \rightarrow C_2H_5OH + Br^-$$
 
-<img src="q1/r2/bromo_ethane.png" height="125"/>
-<img src="q1/r2/hydroxide_ion.png" height="125"/>
-<img src="q1/r2/transition_state.png" height="125"/>
-<img src="q1/r2/ethyl_alcohol.png" height="125"/>
-<img src="q1/r2/bromide_ion.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q1/r2/bromo_ethane.png" height="125"/></td>
+        <td align="center"><img src="q1/r2/hydroxide_ion.png" height="125"/></td>
+        <td align="center"><img src="q1/r2/transition_state.png" height="125"/></td>
+        <td align="center"><img src="q1/r2/ethyl_alcohol.png" height="125"/></td>
+        <td align="center"><img src="q1/r2/bromide_ion.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Bromo Ethane, Hydroxide Ion, Transition State, Ethyl Alcohol, Bromide Ion.
 
@@ -68,11 +76,15 @@ Activation Energy = 0.56822863 a.u. = 356.5691476113 kcal/mol
 
 $$CH_3I + OH^- \rightarrow CH_3OH + I^-$$
 
-<img src="q1/r3/iodo_methane.png" height="125"/>
-<img src="q1/r3/hydroxide_ion.png" height="125"/>
-<img src="q1/r3/transition_state.png" height="125"/>
-<img src="q1/r3/methyl_alcohol.png" height="125"/>
-<img src="q1/r3/iodide_ion.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q1/r3/iodo_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r3/hydroxide_ion.png" height="125"/></td>
+        <td align="center"><img src="q1/r3/transition_state.png" height="125"/></td>
+        <td align="center"><img src="q1/r3/methyl_alcohol.png" height="125"/></td>
+        <td align="center"><img src="q1/r3/iodide_ion.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Iodo Methane, Hydroxide Ion, Transition State, Methyl Alcohol, Iodide Ion.
 
@@ -98,11 +110,15 @@ Activation Energy = 0.19591668 a.u. = 122.9396758668 kcal/mol
 
 $$CH_3Br + I^- \rightarrow CH_3I + Br^-$$
 
-<img src="q1/r4/bromo_methane.png" height="125"/>
-<img src="q1/r4/iodide_ion.png" height="125"/>
-<img src="q1/r4/transition_state.png" height="125"/>
-<img src="q1/r4/iodo_methane.png" height="125"/>
-<img src="q1/r4/bromide_ion.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q1/r4/bromo_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r4/iodide_ion.png" height="125"/></td>
+        <td align="center"><img src="q1/r4/transition_state.png" height="125"/></td>
+        <td align="center"><img src="q1/r4/iodo_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r4/bromide_ion.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Bromo Methane, Iodide Ion, Transition State, Iodo Methane, Bromide Ion.
 
@@ -128,11 +144,15 @@ Activation Energy = 0.0354113 a.u. = 22.220944863 kcal/mol
 
 $$CH_3I + F^- \rightarrow CH_3F + I^-$$
 
-<img src="q1/r5/iodo_methane.png" height="125"/>
-<img src="q1/r5/fluoride_ion.png" height="125"/>
-<img src="q1/r5/transition_state.png" height="125"/>
-<img src="q1/r5/fluoro_methane.png" height="125"/>
-<img src="q1/r5/iodide_ion.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q1/r5/iodo_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r5/fluoride_ion.png" height="125"/></td>
+        <td align="center"><img src="q1/r5/transition_state.png" height="125"/></td>
+        <td align="center"><img src="q1/r5/fluoro_methane.png" height="125"/></td>
+        <td align="center"><img src="q1/r5/iodide_ion.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Iodo Methane, Fluoride Ion, Transition State, Fluoro Methane, Iodide Ion.
 
@@ -170,8 +190,12 @@ We can observe the most stable conformation is the antiperiplanar at 180 degrees
 
 **Calculate the energy difference between the chair and boat forms of cyclohexane.**
 
-<img src="q3/chair_cyclohexane.png" height="125"/>
-<img src="q3/boat_cyclohexane.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q3/chair_cyclohexane.png" height="125"/></td>
+        <td align="center"><img src="q3/boat_cyclohexane.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Chair Cyclohexane, Boat Cyclohexane.
 
@@ -215,10 +239,14 @@ These can be attributed to a wide spectrum of issues, such as approximations emp
 
 **Hydrogen bond between two water molecules are stronger than that between two hydrogen sulfide molecules. Prove.**
 
-<img src="q5/water_monomer.png" height="125"/>
-<img src="q5/water_dimer.png" height="125"/>
-<img src="q5/hydrogen_sulphide_monomer.png" height="125"/>
-<img src="q5/hydrogen_sulphide_dimer.png" height="125"/>
+<table>
+    <tr>
+        <td align="center"><img src="q5/water_monomer.png" height="125"/></td>
+        <td align="center"><img src="q5/water_dimer.png" height="125"/></td>
+        <td align="center"><img src="q5/hydrogen_sulphide_monomer.png" height="125"/></td>
+        <td align="center"><img src="q5/hydrogen_sulphide_dimer.png" height="125"/></td>
+    </tr>
+</table>
 
 Images from left to right: Water Monomer, Water Dimer, Hydrogen Sulphide Monomer, Hydrogen Sulphide Dimer.
 
