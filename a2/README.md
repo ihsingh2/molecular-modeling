@@ -32,14 +32,14 @@
 
 <table>
     <tr>
-        <td align="center"><img src="q3/initial-distances.png" width="200"></td>
         <td align="center"><img src="q3/descent.png" width="200"></td>
         <td align="center"><img src="q3/trajectory.gif" width="200"></td>
+        <td align="center"><img src="q3/total-energy.png" width="200"></td>
     </tr>
     <tr>
-        <td align="center"><a href="q3/README.md">Distribution of Initial Distances</a></td>
         <td align="center"><a href="q3/README.md">Minimization of Lennard Jones Potential</a></td>
         <td align="center"><a href="q3/README.md">NVE Simulation Trajectory</a></td>
+        <td align="center"><a href="q3/README.md">Total Energy during Simulation</a></td>
     </tr>
 </table>
 

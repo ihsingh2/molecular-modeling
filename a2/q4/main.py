@@ -46,7 +46,7 @@ L = 18.7        # Armstrong
 eps = 0.238     # kcal/mol
 sigma = 3.4     # Armstrong
 
-k_B = 1.38e-3
+k_B = 1.98e-3   # kcal/mol.K
 T = 300
 m = 10
 

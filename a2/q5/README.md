@@ -30,4 +30,5 @@ Time taken by each algorithm in current experimental setup:
 - Steepest Descent (100 steps): 60 seconds
 - Monte Carlo @ 300K (1000 steps): 240 seconds
 - Monte Carlo @ 200K (1000 steps): 250 seconds
+- Monte Carlo @ 100K (1000 steps): 290 seconds
 - Simulated Annealing @ 300-100K (5000 steps): 1225 seconds

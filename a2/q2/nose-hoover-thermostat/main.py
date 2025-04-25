@@ -56,7 +56,7 @@ plt.axvline(x=np.mean(P_square), color='orange', linestyle='--', label=f'Second 
 plt.axvline(x=m * k_B * T, color='green', linestyle='--', label=f'Expected Value (mkT)')
 plt.title('Distribution of Momentum Squared in Trajectory')
 plt.ylabel('Frequency')
-plt.xlabel('Momentum')
+plt.xlabel('Momentum Square')
 plt.grid(linewidth=0.35)
 plt.legend(loc='upper right')
 plt.savefig('momentum-square.png', bbox_inches='tight')

@@ -1,4 +1,4 @@
-# Lennard Jones System - Constant Energy (NVE)
+# Lennard Jones System - Constant Temperature (NVT)
 
 ## Initial Configuration
 
@@ -18,18 +18,24 @@ The randomly generated configurations can be improved upon by the use of gradien
 
 ![descent.png](descent.png)
 
-## NVE Simulation Trajectory
+## NVT Simulation Trajectory
 
-Hamilton's equation were applied on the optimized configuration to generate a trajectory, visualized in VMD as follows.
+Hamilton's equation coupled with Nose-Hoover Thermostat were applied on the optimized configuration to generate a trajectory, visualized in VMD as follows.
 
 ![trajectory.gif](trajectory.gif)
 
+The evolution of momenta was as follows. We observe it follows the same properties as it did in the case of a single one dimensional particle, i.e. first and second moment close to zero and proportional to temperature respectively.
+
+![momenta.png](momenta.png)
+
+![momenta-square.png](momenta-square.png)
+
 The evolution of energy metrics were as follows.
-
-![total-energy.png](total-energy.png)
-
-![potential-energy.png](potential-energy.png)
 
 ![kinetic-energy.png](kinetic-energy.png)
 
-Based on the energy plots, we can argue that the objective of constant energy simulation was achieved to a reasonable extent.
+![potential-energy.png](potential-energy.png)
+
+![total-energy.png](total-energy.png)
+
+Based on the plots of energy and momenta, we can argue that the objective of constant temperature simulation was achieved to a reasonable extent.

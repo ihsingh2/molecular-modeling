@@ -60,6 +60,8 @@ sigma = 3.4     # Armstrong
 k_B = 1.98e-3   # kcal/mol.K
 T = 300
 m = 10
+Q = 0.05
+alpha = np.full((N, 1), 0.5)
 
 dt = 0.005
 step_size = 1e-2
@@ -144,11 +146,36 @@ E = [U[-1] + KE[-1]]
 for _ in tqdm(range(num_steps), desc='Generating trajectory'):
     r = R[-1]
     p = P[-1]
+    alpha = alpha + ((1 / Q) * ((np.sum(p ** 2, axis=1, keepdims=True) / m) - (3 * k_B * T))) * dt
     R.append(np.clip(r + (p / m) * dt, 0, L))
-    P.append(p - potential_energy_gradient(r, eps, sigma, L) * dt)
+    P.append(p - (potential_energy_gradient(r, eps, sigma, L) + alpha * p) * dt)
     U.append(potential_energy(R[-1], eps, sigma, L))
     KE.append(np.sum(P[-1] ** 2) / (2 * m))
     E.append(U[-1] + KE[-1])
+
+P_array = np.vstack(P)
+
+plt.hist(P_array.reshape(-1), bins=50)
+plt.title('Distribution of Momenta in Trajectory')
+plt.ylabel('Frequency')
+plt.xlabel('Momenta')
+plt.grid(linewidth=0.35)
+plt.savefig('momenta.png', bbox_inches='tight')
+plt.close()
+plt.clf()
+
+P_square = np.sum(P_array ** 2, axis=1)
+plt.hist(P_square, bins=50)
+plt.axvline(x=np.mean(P_square), color='orange', linestyle='--', label=f'Second Moment')
+plt.axvline(x=3 * m * k_B * T, color='green', linestyle='--', label=f'Expected Value (3mkT)')
+plt.title('Distribution of Momenta Squared in Trajectory')
+plt.ylabel('Frequency')
+plt.xlabel('Momenta Square')
+plt.grid(linewidth=0.35)
+plt.legend(loc='upper right')
+plt.savefig('momenta-square.png', bbox_inches='tight')
+plt.close()
+plt.clf()
 
 plt.plot(U)
 plt.title('Variation in Potential Energy with Time')
@@ -173,8 +200,6 @@ plt.title('Variation in Total Energy with Time')
 plt.ylabel('Total Energy')
 plt.xlabel('Timestep')
 plt.grid(linewidth=0.35)
-ax = plt.gca()
-ax.ticklabel_format(useOffset=False, style='plain')
 plt.savefig('total-energy.png', bbox_inches='tight')
 plt.close()
 plt.clf()
