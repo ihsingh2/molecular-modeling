@@ -53,9 +53,9 @@ def potential_energy_gradient(r, eps, sigma, L):
     return gradient
 
 N = 108
-L = 18.7        # Armstrong
+L = 18.7        # Angstrom
 eps = 0.238     # kcal/mol
-sigma = 3.4     # Armstrong
+sigma = 3.4     # Angstrom
 
 k_B = 1.98e-3   # kcal/mol.K
 T = 300

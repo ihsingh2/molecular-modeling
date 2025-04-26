@@ -43,9 +43,9 @@ def potential_energy(r, eps, sigma, L):
     return energy
 
 N = 108
-L = 18.7        # Armstrong
+L = 18.7        # Angstrom
 eps = 0.238     # kcal/mol
-sigma = 3.4     # Armstrong
+sigma = 3.4     # Angstrom
 
 k_B = 1.98e-3   # kcal/mol.K
 T = np.arange(300, 99, -50)

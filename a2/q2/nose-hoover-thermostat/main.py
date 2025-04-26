@@ -11,7 +11,7 @@ m = 10
 Q = 0.5
 alpha = 0.5
 
-k_B = 1.38e-3     # Scaled for Armstrong units
+k_B = 1.38e-3     # Scaled for Angstrom units
 T = 300
 
 dt = 0.001
