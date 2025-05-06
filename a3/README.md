@@ -4,7 +4,7 @@
     <tr>
         <td align="center"><img src="q1/descent.png" width="200"></td>
         <td align="center"><img src="q1/trajectory.gif" width="200"></td>
-        <td align="center"><img src="q1/total-energy.png" width="200"></td>
+        <td align="center"><img src="q1/kinetic-energy.png" width="200"></td>
     </tr>
     <tr>
         <td align="center"><a href="q1/README.md">Minimization of Lennard Jones Potential</a></td>
@@ -14,6 +14,19 @@
 </table>
 
 # Lennard Jones System - Constant Temperature and Pressure (NPT)
+
+<table>
+    <tr>
+        <td align="center"><img src="q2/descent.png" width="200"></td>
+        <td align="center"><img src="q2/pressure.png" width="200"></td>
+        <td align="center"><img src="q2/kinetic-energy.png" width="200"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="q2/README.md">Minimization of Lennard Jones Potential</a></td>
+        <td align="center"><a href="q2/README.md">Pressure during Simulation</a></td>
+        <td align="center"><a href="q2/README.md">Kinetic Energy during Simulation</a></td>
+    </tr>
+</table>
 
 # Simulation of Ice Crystal using SPC/E Water Model - Constant Temperature
 
