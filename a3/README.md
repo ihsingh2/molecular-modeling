@@ -30,6 +30,19 @@
 
 # Simulation of Ice Crystal using SPC/E Water Model - Constant Temperature
 
+<table>
+    <tr>
+        <td align="center"><img src="q3/ice_crystal.png" width="200"></td>
+        <td align="center"><img src="q3/momenta-square.png" width="200"></td>
+        <td align="center"><img src="q3/kinetic-energy.png" width="200"></td>
+    </tr>
+    <tr>
+        <td align="center"><a href="q3/README.md">Ice Crystal Supercell</a></td>
+        <td align="center"><a href="q3/README.md">Distribution of Momentum during Simulation</a></td>
+        <td align="center"><a href="q3/README.md">Kinetic Energy during Simulation</a></td>
+    </tr>
+</table>
+
 # Counting the Accessible Microstates of an Isolated Lennard Jones System in a Cubic Volume
 
 <table>
