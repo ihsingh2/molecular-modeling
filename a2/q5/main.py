@@ -2,10 +2,12 @@ import math
 import matplotlib.pyplot as plt
 import numpy as np
 import time
+from numba import njit, prange
 from tqdm import tqdm
 
 np.random.seed(42)
 
+@njit
 def find_coordinate_distance(r_i, r_j, L):
     dr = r_i - r_j
     for kdx in range(3):
@@ -16,24 +18,29 @@ def find_coordinate_distance(r_i, r_j, L):
             dr[kdx] += L
     return dr
 
+@njit
 def find_distance(r_i, r_j, L):
     return np.linalg.norm(find_coordinate_distance(r_i, r_j, L))
 
+@njit(parallel=True)
 def pairwise_distances(r1, r2, L):
     distances = np.empty((len(r1), len(r2)))
-    for idx in range(len(r1)):
+    for idx in prange(len(r1)):
         for jdx in range(len(r2)):
             distances[idx, jdx] = find_distance(r1[idx], r2[jdx], L)
     return distances
 
+@njit
 def constraint_satisfied(r, candidate, L, threshold=3):
     return (pairwise_distances(r, candidate.reshape(1, 3), L) >= threshold).all()
 
+@njit
 def check_all_constraints(r, L, threshold=3):
     distances = pairwise_distances(r, r, L)
     np.fill_diagonal(distances, threshold + 1)
     return (distances >= threshold).all()
 
+@njit
 def potential_energy(r, eps, sigma, L):
     energy = 0.0
     distances = pairwise_distances(r, r, L)
@@ -52,7 +59,7 @@ T = np.arange(300, 99, -50)
 m = 10
 
 step_size = 1e-2
-num_opt_steps = 5000
+num_opt_steps = 2500
 num_temp_steps = math.ceil(num_opt_steps / len(T))
 
 r = np.array([], dtype=np.float64).reshape(0, 3)

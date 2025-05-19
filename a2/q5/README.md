@@ -20,15 +20,13 @@ The randomly generated configurations can be improved upon by the use of Simulat
 
 ## Comparision with Steepest Descent
 
-We notice that Simulated Annealing have converged to an energy level similar to what we achieved with steepest descent. However, this comes at the cost of 5000\* steps of Simulated Annealing (against the 100 steps of Steepest Descent). Recall both while Simulated Annealing requires computation of the potential energy at every step, Steepest Descent requires computation of the potential energy gradient - both of which have a similar computational complexity. We can thus argue the informed updates of Steepest Descent outperformed the slower updates of Simulated Annealing in this experimental setup.
-
-\*One should note that the success of simulated annealing depends on the choice of temperature as much as that the success of steepest descent depends on the learning rate. A single run of simulated annealing alone cannot be sufficient for drawing a conclusion.
+We notice that both Simulated Annealing and Steepest Descent have similar performance with respect to execution time and optimization. To be more precise, Simulated Annealing has an edge with regards to execution time while Steepest Descent has an edge with respect to optimization.
 
 ## Appendix
 
 Time taken by each algorithm in current experimental setup:
-- Steepest Descent (100 steps): 60 seconds
-- Monte Carlo @ 300K (1000 steps): 240 seconds
-- Monte Carlo @ 200K (1000 steps): 250 seconds
-- Monte Carlo @ 100K (1000 steps): 290 seconds
-- Simulated Annealing @ 300-100K (5000 steps): 1225 seconds
+- Steepest Descent (100 steps): 5.87 seconds
+- Monte Carlo @ 300K (1000 steps): 2.55 seconds
+- Monte Carlo @ 200K (1000 steps): 2.67 seconds
+- Monte Carlo @ 100K (1000 steps): 3.11 seconds
+- Simulated Annealing @ 300-100K (2500 steps): 5.94 seconds

@@ -1,0 +1,14 @@
+Commands to load and run Gaussian/gview:
+
+	gview
+	g09 < input.com > output.log
+
+Some Notes:
+	1. Use Hartree-Fock method with STO-3G basis set. No other settings will need to be changed (except title maybe).
+	2. Use Opt+Freq to make your life easy - calculates everything you may need (except scan).
+	3. The 'R' icon indicates the Redundant Coordinates menu. Use this to mark dihederal angles that need scanning.
+	4. Use the Scan calculation for Conformational analysis.
+	5. Energy is in a.u. which is 1 Hartree. You can find converters online if needed.
+	6. Gaussian will create a (sometimes quite big) .chk (checkpoint) file. This is normal. Do not panic.
+	7. gview can load both input and output files. Right clicking empty space will give access to the results menu.
+	8. If you are interested, check out the python package 'ase' (atomic simualtion environment); use it to automate some of your Gaussian work.
